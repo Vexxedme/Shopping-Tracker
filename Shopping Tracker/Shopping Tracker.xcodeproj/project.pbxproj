@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDEBE42C1A07AD0700D431B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBE42B1A07AD0700D431B7 /* main.m */; };
+		EDEBE42F1A07AD0700D431B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBE42E1A07AD0700D431B7 /* AppDelegate.m */; };
+		EDEBE4321A07AD0700D431B7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBE4311A07AD0700D431B7 /* FirstViewController.m */; };
+		EDEBE4351A07AD0700D431B7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBE4341A07AD0700D431B7 /* SecondViewController.m */; };
+		EDEBE4381A07AD0700D431B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEBE4361A07AD0700D431B7 /* Main.storyboard */; };
+		EDEBE43A1A07AD0700D431B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEBE4391A07AD0700D431B7 /* Images.xcassets */; };
+		EDEBE43D1A07AD0700D431B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDEBE43B1A07AD0700D431B7 /* LaunchScreen.xib */; };
+		EDEBE4491A07AD0700D431B7 /* Shopping_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBE4481A07AD0700D431B7 /* Shopping_TrackerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDEBE4431A07AD0700D431B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDEBE41E1A07AD0700D431B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDEBE4251A07AD0700D431B7;
+			remoteInfo = "Shopping Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDEBE4261A07AD0700D431B7 /* Shopping Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEBE42A1A07AD0700D431B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEBE42B1A07AD0700D431B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDEBE42D1A07AD0700D431B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDEBE42E1A07AD0700D431B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDEBE4301A07AD0700D431B7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		EDEBE4311A07AD0700D431B7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		EDEBE4331A07AD0700D431B7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EDEBE4341A07AD0700D431B7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EDEBE4371A07AD0700D431B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDEBE4391A07AD0700D431B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDEBE43C1A07AD0700D431B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EDEBE4421A07AD0700D431B7 /* Shopping TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopping TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEBE4471A07AD0700D431B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEBE4481A07AD0700D431B7 /* Shopping_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shopping_TrackerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDEBE4231A07AD0700D431B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEBE43F1A07AD0700D431B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDEBE41D1A07AD0700D431B7 = {
+			isa = PBXGroup;
+			children = (
+				EDEBE4281A07AD0700D431B7 /* Shopping Tracker */,
+				EDEBE4451A07AD0700D431B7 /* Shopping TrackerTests */,
+				EDEBE4271A07AD0700D431B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDEBE4271A07AD0700D431B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDEBE4261A07AD0700D431B7 /* Shopping Tracker.app */,
+				EDEBE4421A07AD0700D431B7 /* Shopping TrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDEBE4281A07AD0700D431B7 /* Shopping Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				EDEBE42D1A07AD0700D431B7 /* AppDelegate.h */,
+				EDEBE42E1A07AD0700D431B7 /* AppDelegate.m */,
+				EDEBE4301A07AD0700D431B7 /* FirstViewController.h */,
+				EDEBE4311A07AD0700D431B7 /* FirstViewController.m */,
+				EDEBE4331A07AD0700D431B7 /* SecondViewController.h */,
+				EDEBE4341A07AD0700D431B7 /* SecondViewController.m */,
+				EDEBE4361A07AD0700D431B7 /* Main.storyboard */,
+				EDEBE4391A07AD0700D431B7 /* Images.xcassets */,
+				EDEBE43B1A07AD0700D431B7 /* LaunchScreen.xib */,
+				EDEBE4291A07AD0700D431B7 /* Supporting Files */,
+			);
+			path = "Shopping Tracker";
+			sourceTree = "<group>";
+		};
+		EDEBE4291A07AD0700D431B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDEBE42A1A07AD0700D431B7 /* Info.plist */,
+				EDEBE42B1A07AD0700D431B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDEBE4451A07AD0700D431B7 /* Shopping TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDEBE4481A07AD0700D431B7 /* Shopping_TrackerTests.m */,
+				EDEBE4461A07AD0700D431B7 /* Supporting Files */,
+			);
+			path = "Shopping TrackerTests";
+			sourceTree = "<group>";
+		};
+		EDEBE4461A07AD0700D431B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDEBE4471A07AD0700D431B7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDEBE4251A07AD0700D431B7 /* Shopping Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEBE44C1A07AD0700D431B7 /* Build configuration list for PBXNativeTarget "Shopping Tracker" */;
+			buildPhases = (
+				EDEBE4221A07AD0700D431B7 /* Sources */,
+				EDEBE4231A07AD0700D431B7 /* Frameworks */,
+				EDEBE4241A07AD0700D431B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shopping Tracker";
+			productName = "Shopping Tracker";
+			productReference = EDEBE4261A07AD0700D431B7 /* Shopping Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDEBE4411A07AD0700D431B7 /* Shopping TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEBE44F1A07AD0700D431B7 /* Build configuration list for PBXNativeTarget "Shopping TrackerTests" */;
+			buildPhases = (
+				EDEBE43E1A07AD0700D431B7 /* Sources */,
+				EDEBE43F1A07AD0700D431B7 /* Frameworks */,
+				EDEBE4401A07AD0700D431B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDEBE4441A07AD0700D431B7 /* PBXTargetDependency */,
+			);
+			name = "Shopping TrackerTests";
+			productName = "Shopping TrackerTests";
+			productReference = EDEBE4421A07AD0700D431B7 /* Shopping TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDEBE41E1A07AD0700D431B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Tom Wells";
+				TargetAttributes = {
+					EDEBE4251A07AD0700D431B7 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					EDEBE4411A07AD0700D431B7 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = EDEBE4251A07AD0700D431B7;
+					};
+				};
+			};
+			buildConfigurationList = EDEBE4211A07AD0700D431B7 /* Build configuration list for PBXProject "Shopping Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDEBE41D1A07AD0700D431B7;
+			productRefGroup = EDEBE4271A07AD0700D431B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDEBE4251A07AD0700D431B7 /* Shopping Tracker */,
+				EDEBE4411A07AD0700D431B7 /* Shopping TrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDEBE4241A07AD0700D431B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEBE4381A07AD0700D431B7 /* Main.storyboard in Resources */,
+				EDEBE43D1A07AD0700D431B7 /* LaunchScreen.xib in Resources */,
+				EDEBE43A1A07AD0700D431B7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEBE4401A07AD0700D431B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDEBE4221A07AD0700D431B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEBE4351A07AD0700D431B7 /* SecondViewController.m in Sources */,
+				EDEBE42F1A07AD0700D431B7 /* AppDelegate.m in Sources */,
+				EDEBE4321A07AD0700D431B7 /* FirstViewController.m in Sources */,
+				EDEBE42C1A07AD0700D431B7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEBE43E1A07AD0700D431B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEBE4491A07AD0700D431B7 /* Shopping_TrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDEBE4441A07AD0700D431B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDEBE4251A07AD0700D431B7 /* Shopping Tracker */;
+			targetProxy = EDEBE4431A07AD0700D431B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDEBE4361A07AD0700D431B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEBE4371A07AD0700D431B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDEBE43B1A07AD0700D431B7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEBE43C1A07AD0700D431B7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDEBE44A1A07AD0700D431B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDEBE44B1A07AD0700D431B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDEBE44D1A07AD0700D431B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shopping Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDEBE44E1A07AD0700D431B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shopping Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDEBE4501A07AD0700D431B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Shopping TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopping Tracker.app/Shopping Tracker";
+			};
+			name = Debug;
+		};
+		EDEBE4511A07AD0700D431B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Shopping TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopping Tracker.app/Shopping Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDEBE4211A07AD0700D431B7 /* Build configuration list for PBXProject "Shopping Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEBE44A1A07AD0700D431B7 /* Debug */,
+				EDEBE44B1A07AD0700D431B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEBE44C1A07AD0700D431B7 /* Build configuration list for PBXNativeTarget "Shopping Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEBE44D1A07AD0700D431B7 /* Debug */,
+				EDEBE44E1A07AD0700D431B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDEBE44F1A07AD0700D431B7 /* Build configuration list for PBXNativeTarget "Shopping TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEBE4501A07AD0700D431B7 /* Debug */,
+				EDEBE4511A07AD0700D431B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDEBE41E1A07AD0700D431B7 /* Project object */;
+}
